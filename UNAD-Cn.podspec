@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Cn"
-  spec.version      = "2.9.12"
+  spec.version      = "2.9.13"
   spec.summary      = "UNAD国内版本"
 
   # This description is used to generate tags and improve search results.
@@ -148,6 +148,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'AnyThinkMediationKuaiShouAdapter','4.9.20.3.1'
   spec.dependency 'AnyThinkMediationTTAdapter','7.2.0.0.7'
   spec.dependency 'AnyThinkMediationGDTAdapter','4.15.60.7'
-
+  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
 
 end
