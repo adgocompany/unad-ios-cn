@@ -139,10 +139,11 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'AliyunLogProducer','3.1.16'
-
-  #国内
   spec.dependency 'AnyThinkiOS','6.5.34'
   spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
+  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
+
+  #国内
   spec.dependency 'AnyThinkMediationBaiduAdapter','10.022.0'
   spec.dependency 'AnyThinkMediationZYAdapter','2.5.9.28.2'
   spec.dependency 'AnyThinkMediationKuaiShouAdapter','4.9.20.3.1'
