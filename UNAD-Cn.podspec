@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "13.0"
+   spec.platform     = :ios, "15.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -138,17 +138,23 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'AliyunLogProducer','3.1.16'
-  spec.dependency 'AnyThinkiOS','6.5.34'
-  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
-  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
+  spec.dependency 'AliyunLogProducer', '3.1.16'
+  spec.dependency 'AnyThinkiOS', '6.5.84'
+  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter', '6.5.90.2.1'
+  spec.dependency 'AnyThinkMediationMintegralAdapter', '8.1.6.2.0'
+  spec.dependency 'AnyThinkMediationGDTAdapter', '4.16.12.2.0'
+  spec.dependency 'AnyThinkMediationBaiduAdapter', '10.070.2.0'
+  spec.dependency 'AnyThinkMediationKuaiShouAdapter', '5.9.10.1.2.0'
+  spec.dependency 'AnyThinkMediationFancyAdapter', '3.0.23.2.0'
+  spec.dependency 'AnyThinkMediationZYAdapter', '2.6.10.7.2.0'
+  spec.dependency 'AnyThinkMediationBeiZiAdapter', '5.5.6.0.2.0'
+  spec.dependency 'AnyThinkMediationTTAdapter', '7.8.0.5.2.1'
+  spec.dependency 'Ads-CN/BUAdSDK', '7.8.0.5'
+  spec.dependency 'BaiduMobAdSDK', '10.070'
+  spec.dependency 'GDTMobSDK', '4.16.12'
+  spec.dependency 'KSAdSDK', '5.9.10.1'
+  spec.dependency 'MintegralAdSDK/All', '8.1.6'
 
   #国内
-  spec.dependency 'AnyThinkMediationBaiduAdapter','10.022.0'
-  spec.dependency 'AnyThinkMediationZYAdapter','2.5.9.28.2'
-  spec.dependency 'AnyThinkMediationKuaiShouAdapter','4.9.20.3.1'
-  spec.dependency 'AnyThinkMediationTTAdapter','7.2.0.0.7'
-  spec.dependency 'AnyThinkMediationGDTAdapter','4.15.60.7'
-  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
 
 end
