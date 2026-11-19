@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UNAD-Cn"
-  spec.version      = "2.9.13"
+  spec.version      = "2.9.23"
   spec.summary      = "UNAD国内版本"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "15.0"
+   spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
 
   # SDK的路径 写上库的位置 (自动生成没有这一项，不写会出错)
-  spec.vendored_frameworks = 'UNAD-Cn/UNAD.framework'
+  spec.vendored_frameworks = 'UNAD-Cn/UNAD.xcframework'
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -149,10 +149,12 @@ Pod::Spec.new do |spec|
   spec.dependency 'AnyThinkMediationZYAdapter', '2.6.10.7.2.0'
   spec.dependency 'AnyThinkMediationBeiZiAdapter', '5.5.6.0.2.0'
   spec.dependency 'AnyThinkMediationTTAdapter', '7.8.0.5.2.1'
+  spec.dependency 'AnyThinkMediationJDAdapter', '2.6.6.2.1'
   spec.dependency 'Ads-CN/BUAdSDK', '7.8.0.5'
   spec.dependency 'BaiduMobAdSDK', '10.070'
   spec.dependency 'GDTMobSDK', '4.16.12'
   spec.dependency 'KSAdSDK', '5.9.10.1'
+  spec.dependency 'MagicAdSDK', '0.0.79'
   spec.dependency 'MintegralAdSDK/All', '8.1.6'
 
   #国内
