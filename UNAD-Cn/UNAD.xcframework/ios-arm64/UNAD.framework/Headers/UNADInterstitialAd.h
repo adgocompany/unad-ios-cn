@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)showAdFromRootViewController:(nonnull UIViewController *)rootViewController;
 
+/** Attempts to dismiss the current interstitial and its presentation window. */
+- (void)forceClose;
+
 
 @end
 
@@ -45,6 +48,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @protocol UNADInterstitialAdDelegate <NSObject>
 @optional
+
+/** Called when UNAD requests a forced close, not confirmation from the ad network. */
+- (void)interstitialAdForceClosed:(UNADInterstitialAd *)interstitial;
 
 /**
  广告已经加载
